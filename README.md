@@ -18,3 +18,11 @@ Tradicinis vector konteineris veikė greičiau.
 #### 3. Užpildant 100000000 elementų dydžio konteinerį ir vector, ir vec atminties perskistymas vyko 27 kartus.
 
 #### 4. Spartos analizė naudojant vec praeitų užduočių programoje, apdorojant failą su 100 000 įrašų.
+|        100 000        | vector |  vec  |
+|:---------------------:|:------:|:-----:|
+|       Failo skaitymas |  0.358 | 0.556 |
+|      Įrašų rikiavimas |  0.258 | 0.369 |
+| Rušiavimas į 2 grupes |  0.054 | 0.087 |
+|        Bendras laikas |  1.040 | 1.516 |
+
+Tradicinis vector konteineris šiuo atveju taip pat veikė greičiau.
